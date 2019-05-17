@@ -4,6 +4,6 @@
 
 - [ ] load dataset
 - [ ] prepare the presentation
-- [ ] set up VM and install pyspark
+- [ ] set up VM and install pyspark – LU
 - [ ] template for report
-- [ ] coding
+- [ ] coding – LU
