@@ -3,7 +3,8 @@
 ## TODO
 
 - [ ] load dataset
-- [ ] prepare the presentation
+- [ ] prepare the presentation – Erik
 - [ ] set up VM and install pyspark – LU
 - [ ] template for report
+- [ ] report writing
 - [ ] coding – LU
