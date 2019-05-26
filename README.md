@@ -42,7 +42,7 @@ Perhaps test everything on the VM of Assignment 2 first?
 
 - [ ] load dataset – ALL
 - [ ] template for report – Anna
-- [ ] coding – LU, R
+- [ ] coding – ALL
 - [ ] report writing – TBD
 
 ## Done
