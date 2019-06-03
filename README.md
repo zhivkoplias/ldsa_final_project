@@ -55,4 +55,4 @@ Perhaps test everything on the VM of Assignment 2 first?
 
 ## Some instructions
 To upload file from local to HDFS 
-   - cd to the directory where the file is located and then ~/hadoop-2.7.7/bin/hdfs dfs -put <local-file-to-upload> hdfs://192.168.1.153:9000/team08
+   - cd to the directory where the file is located and then ~/hadoop-2.7.7/bin/hdfs dfs -put local-file-to-upload hdfs://192.168.1.153:9000/team08
