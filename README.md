@@ -51,3 +51,4 @@ Perhaps test everything on the VM of Assignment 2 first?
 
 - Set up VM with large flavour and 100GB volume - LU
 - Installed pyspark-2.4.3 – LU
+- Overleaf https://www.overleaf.com/8818127438cdhbxtjcwzdx - Anna
