@@ -52,3 +52,7 @@ Perhaps test everything on the VM of Assignment 2 first?
 - Set up VM with large flavour and 100GB volume - LU
 - Installed pyspark-2.4.3 – LU
 - Overleaf https://www.overleaf.com/8818127438cdhbxtjcwzdx - Anna
+
+## Some instructions
+To upload file from local to HDFS 
+   - cd to the directory where the file is located and then ~/hadoop-2.7.7/bin/hdfs dfs -put local-file hdfs://192.168.1.153:9000/team08
