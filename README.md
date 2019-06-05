@@ -56,7 +56,9 @@ Perhaps test everything on the VM of Assignment 2 first?
 ## Some instructions
 To upload file to HDFS 
    - ~/hadoop-2.7.7/bin/hdfs dfs -put path/to/file-to-upload hdfs://192.168.1.153:9000/team08
+
 Delete a file in HDFS
    - ~/hadoop-2.7.7/bin/hdfs dfs -rm hdfs://192.168.1.153:9000/team08/path-to-file
+
 Delete a directory in HDFS
    - ~/hadoop-2.7.7/bin/hdfs dfs -rm -r hdfs://192.168.1.153:9000/team08/path-to-directory
