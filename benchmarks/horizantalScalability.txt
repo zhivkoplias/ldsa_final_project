@@ -1,0 +1,41 @@
+
+
+============================================================
+Horizontal Scalability
+============================================================
+In this project we will only test for horizontal scaling - The system performs by add more resources. For example, adding more storage nodes.
+We using HDFS and the shared spark cluster, there are 10 workers (with 8 cores each)
+
+1) Testing with using fixed size, increasing the number of cores.
+============================================================
+
+File 1 : ten_point_six_gb.tar.bz2 , 10.52 GB. GC content in the file "ten_point_six_gb.tar.bz2" is 7.49%
+
+num_of_cores	time_in HH:MM:SS
+1				3:29:30.731665
+2				1:46:40.402333
+4				0:57:30.999221
+8				0:51:52.577576
+16				0:17:38.061006
+32				0:10:30.357869
+64				0:05:55.378041
+
+=========================
+
+File 2 : SRS143728.tar.bz2 , 4.56 GB.  GC content in the file "SRS143728.tar.bz2" is 2.18%
+
+num_of_cores	time_in HH:MM:SS
+1				1:03:42.015692
+2				0:46:00.861681
+4				0:24:32.347101
+8				0:22:21.865033
+16				0:08:46.299956
+32				0:05:19.575565
+64				0:04:56.512024
+
+============================================================
+
+2) Testing with 2 different sizes, 4.56 GB and 10.52 GB. I will test 2 tests
+	1 test both file with same size of cores to see the horizontal scaling 
+	2 test the smaller one with smaller size of cores and the larger one with larger size of cores
+This test I will just want to test for more detail so you can make a table with time measurement and speedup and plotting it.
