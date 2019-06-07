@@ -1,0 +1,38 @@
+
+
+Experiment 3.
+
+File 1 : ten_point_six_gb.tar.bz2 , 10.52 GB. Configured 4 cores per a executor per a worker.
+
+num_of_cores	num_of_workers		time_in HH:MM:SS
+4				1					0:57:22.478353
+8				2					0:30:12.076985
+12				3					0:17:53.939024
+16				4					0:14:11.430407
+20				5					0:11:19.267304
+24				6					0:09:49.155799
+28				7					0:08:50.795151
+32				8					0:08:13.167836
+36				9					0:06:26.000937
+40				10					0:06:26.642415
+
+
+=========================
+
+File 2 : SRS143728.tar.bz2 , 4.56 GB. Configured 4 cores per a executor per a worker.
+
+num_of_cores	num_of_workers		time_in HH:MM:SS
+4				1					0:24:31.181749
+8				2					0:13:24.537183
+12				3					0:08:24.384099
+16				4					0:06:15.363797
+20				5					0:05:50.955132
+24				6					0:05:20.323463
+28				7					0:03:58.681712
+32				8					0:03:49.992353
+36				9					0:03:32.346293
+40 - Error I guess it's because to many cores than the size of dataset. I gonna test again after refresh computer.
+
+
+The result showed that this configuration made the system lost its ability to manage/justify a reasonable number of executor/workers that suits for the size of dataset.
+
