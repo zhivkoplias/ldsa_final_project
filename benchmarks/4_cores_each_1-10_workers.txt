@@ -31,8 +31,9 @@ num_of_cores	num_of_workers		time_in HH:MM:SS
 28				7					0:03:58.681712
 32				8					0:03:49.992353
 36				9					0:03:32.346293
-40 - Error I guess it's because to many cores than the size of dataset. I gonna test again after refresh computer.
+40				10					0:03:23.782488
 
 
 The result showed that this configuration made the system lost its ability to manage/justify a reasonable number of executor/workers that suits for the size of dataset.
 
+If we use more than 40 cores and if the workers has enough cores and memory then more executors will be added to those workers
